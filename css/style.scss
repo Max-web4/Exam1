@@ -1,0 +1,537 @@
+.houses {
+  width: 1770px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../img/StrangeHouse.png);
+  .housesBlock {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.8;
+    position: relative;
+    top: 230px;
+    left: 310px;
+    transition-duration: 0.5s;
+    .title {
+      width: 50px;
+      height: 19px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      padding-top: 60px;
+      margin-left: 20px;
+    }
+    .boldSign {
+      width: 211px;
+      height: 17px;
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+    .text {
+      width: 478px;
+      height: 68px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+    button {
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      opacity: 0.9;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+    &:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+}
+.rock {
+  width: 1770px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../img/Rock.png);
+  .rockBlock {
+    width: 540px;
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.8;
+    position: relative;
+    top: 230px;
+    left: 880px;
+    transition-duration: 0.5s;
+    .title {
+      width: 50px;
+      height: 19px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      padding-top: 60px;
+      margin-left: 20px;
+    }
+    .boldSign {
+      width: 211px;
+      height: 17px;
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+    .text {
+      width: 478px;
+      height: 68px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+      margin-top: 60px;
+      margin-left: 20px;
+    }
+    button {
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      opacity: 0.9;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+    &:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+}
+.tourism {
+  width: 1770px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../img/MaxExplore.png);
+  .titleTourism {
+    width: 360px;
+    height: 33px;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 130px;
+  }
+  .picture_description {
+    width: 1110px;
+    height: 284px;
+    display: flex;
+    padding-top: 90px;
+    margin: 0 auto;
+  }
+  .pictureTourist {
+    width: 445px;
+    height: 284px;
+    background-image: url(../img/ManBetweenRocks.png);
+    margin: 0 auto;
+  }
+  .descTourist {
+    width: 665px;
+    height: 284px;
+    background-color: #333333;
+  }
+  .name {
+    width: 160px;
+    height: 17px;
+    color: #fefefe;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .someArticle {
+    width: 551px;
+    height: 136px;
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    span {
+      font-size: 20pt;
+      color: #5474fd;
+    }
+  }
+}
+footer {
+  width: 1770px;
+  height: 268px;
+  background-color: #232323;
+  margin: 0 auto;
+
+  .qqq {
+    width: 163px;
+    height: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 3.36px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .www {
+    width: 200px;
+    height: 16px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+  .socialMedia {
+    padding-top: 25px;
+    margin: 0 auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    a {
+      margin-left: 15px;
+    }
+  }
+}
+.bgWhy {
+  width: 1770px;
+  height: 685px;
+  margin: 0 auto;
+  background-image: url(../img/whyChooseus.png);
+  display: flex;
+  .WhyChooseUs {
+    width: 530px;
+    height: 350px;
+    position: relative;
+    top: 250px;
+    left: 325px;
+    .titleWhy {
+      width: 300px;
+      height: 33px;
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 36px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 26px;
+      text-align: left;
+    }
+    .textWhy {
+      width: 530px;
+      height: 146px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: left;
+      letter-spacing: 1.6px;
+      margin-top: 25px;
+    }
+    button {
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 26px;
+      text-align: center;
+      text-transform: uppercase;
+      opacity: 0.9;
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+  }
+  .addImages {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/whyChooseTop.png);
+    position: relative;
+    top: 150px;
+    left: 400px;
+  }
+  .addImage {
+    width: 350px;
+    height: 220px;
+    background-image: url(../img/WhyChooseButtom.png);
+    position: relative;
+    top: 380px;
+    left: 200px;
+  }
+}
+.first-container {
+  background-image: url("../img/mountain.png");
+  width: 1770px;
+  height: 820px;
+  margin: 0 auto;
+
+  .first-container__text_header {
+    height: 40px;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    padding-top: 260px;
+    padding-left: 730px;
+  }
+
+  .first-container__text_header_second {
+    width: 415px;
+    height: 21px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.42px;
+    padding-top: 20px;
+    padding-left: 730px;
+  }
+
+  .first-container__search-form {
+    padding-top: 20px;
+    padding-left: 570px;
+  }
+
+  form {
+    position: relative;
+    width: 650px;
+  }
+
+  input,
+  button {
+    border: none;
+    outline: none;
+  }
+
+  input {
+    width: 100%;
+    height: 65px;
+    background: #fff;
+    padding-left: 15px;
+  }
+
+  button {
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #5474fd;
+    cursor: pointer;
+  }
+
+  .first-container__scroll {
+    padding-top: 120px;
+    padding-left: 530px;
+  }
+
+  .first-container__scroll_text {
+    width: 153px;
+    height: 11px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    padding-top: 50px;
+    padding-left: 330px;
+  }
+
+  .fa-chevron-down {
+    width: 15px;
+    height: 8px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 375px;
+  }
+
+  ::placeholder {
+    width: 247px;
+    height: 31px;
+    color: #999999;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    padding-left: 100px;
+  }
+  .first-container__search-form_text {
+    width: 62px;
+    height: 11px;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    padding-right: 15px;
+  }
+
+  .fa-search {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+.second-container {
+  width: 1770px;
+  height: 80px;
+  background-color: #5474fd;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+  .second-container__text {
+    width: 156px;
+    height: 60px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+  }
+
+  .second-container__menu > ul {
+    width: 540px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: #ffffff;
+    font-family: "Aleo", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  li > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+.searchField {
+  width: 1770px;
+  height: 337px;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  .SearchPlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signField {
+    width: 220px;
+    height: 34px;
+    color: #e8e8e8;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
