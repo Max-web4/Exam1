@@ -1,3 +1,12 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 1770px;
+}
+a {
+  text-decoration: none;
+}
 .houses {
   width: 1770px;
   height: 700px;
@@ -261,7 +270,7 @@ footer {
     line-height: 26px;
     text-align: center;
     letter-spacing: 1.6px;
-    padding-top: 15px;
+    padding-top: 25px;
     margin: 0 auto;
   }
   .socialMedia {
@@ -515,11 +524,24 @@ footer {
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
+  position: relative;
 
+  .duga {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-51%);
+    width: 65%;
+    height: 100px;
+    background-image: url(../img/dugu.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
   .SearchPlaces {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
   }
   .signField {
     width: 220px;
